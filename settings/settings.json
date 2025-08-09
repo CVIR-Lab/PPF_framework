@@ -1,0 +1,34 @@
+{
+  "SeeDocsAt": "https://github.com/Microsoft/AirSim/blob/main/docs/settings.md",
+  "SettingsVersion": 1.2,
+  "SimMode":"Multirotor",
+  "ViewMode":"Nodisplay",
+  "PawnPaths":{
+		"DefaultQuadrotor":{"PawnBP":"Class'/Game/customDrone/BP_FlyingPawn.BP_FlyingPawn_C'"}
+	},
+  "Vehicles": {
+     "Drone1": {
+     "VehicleType": "SimpleFlight",
+     "X": 0, "Y": 0, "Z": 0,
+     "Yaw": 0,
+     "Sensors": {
+                "LidarSensor1": {
+                    "SensorType": 6,
+                    "Enabled" : true,
+                    "NumberOfChannels": 16,
+                    "RotationsPerSecond": 10,
+                    "PointsPerSecond": 100000,
+                    "X": 0, "Y": 0, "Z": -0.05,
+                    "Roll": 0, "Pitch": 0, "Yaw" : 0,
+                    "VerticalFOVUpper": 0,
+                    "VerticalFOVLower": 0,
+                    "HorizontalFOVStart": -45,
+                    "HorizontalFOVEnd": 45,
+                    "DrawDebugPoints": true,
+					"Range": 9,
+                    "DataFrame": "SensorLocalFrame"
+                }
+              }
+     }
+}
+}
