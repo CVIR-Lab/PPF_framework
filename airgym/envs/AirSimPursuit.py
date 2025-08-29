@@ -69,15 +69,13 @@ class AirSimPursuit(gym.Env):
         # self.observation_space = spaces.Dict({"image": spaces.Box(low=0, high=255, shape=(self.screen_height, self.screen_width, 1), dtype=np.uint8),
         #                                     "state": spaces.Box(low=np.array([-np.inf, -np.inf, -np.inf, -np.inf, -np.inf, -np.inf]), high=np.array([np.inf, np.inf, np.inf, np.inf,np.inf, np.inf]), dtype=np.float32)})
 
-        '''[self.target_angel,self.target_z_angel, self.yaw, self.distance]'''
+        '''[self.target_angel,self.target_z_angel, self.yaw, self.distance]---3D'''
         # self.observation_space = spaces.Box(low=np.array([-np.inf, -np.inf, -np.inf, -np.inf]),
         #                                     high=np.array([np.inf, np.inf, np.inf, np.inf]),
         #                                     dtype=np.float32)
-        '''[self.x_position, self.y_position, self.z_position, self.target_x_position, self.target_y_position, self.target_z_position, self.yaw]'''
-        # self.observation_space = spaces.Box(low=np.array([-np.inf, -np.inf, -np.inf, -np.inf, -np.inf, -np.inf, -np.inf]),
-        #                                     high=np.array([np.inf, np.inf, np.inf, np.inf, np.inf, np.inf, np.inf]),
-        #                                     dtype=np.float32)
 
+
+        '''[self.target_angel, self.yaw, self.distance]---2D'''
         self.observation_space = spaces.Box(low=np.array([-np.inf, -np.inf, -np.inf]),
                                             high=np.array([np.inf, np.inf, np.inf]),
                                             dtype=np.float32)
@@ -158,8 +156,6 @@ class AirSimPursuit(gym.Env):
 
         # state_info = [self.target_angel, self.target_z_angel, self.yaw, self.distance]
 
-        # state_info = np.array([self.x_position, self.y_position, self.z_position, self.target_x_position, self.target_y_position, self.target_z_position, self.yaw])  # 获取额外状态信息
-
         obs = state_info
 
         self.current_step = 0
@@ -174,45 +170,8 @@ class AirSimPursuit(gym.Env):
 
         return obs
 
-    # def reset(
-    #         self,
-    #         *,  # 之后参数必须关键字调用
-    #         seed: Optional[int] = None,
-    #         options: Optional[Dict] = None,
-    #         **kwargs):
-    #     if seed is not None:
-    #         self.seed(seed)
-    #
-    #     # reset state
-    #     self.dynamics.reset()
-    #
-    #     state_info = np.array([self.target_angel, self.yaw, self.distance])  # 获取额外状态信息
-    #
-    #     # state_info = [self.target_angel, self.target_z_angel, self.yaw, self.distance]
-    #
-    #     # state_info = np.array([self.x_position, self.y_position, self.z_position, self.target_x_position, self.target_y_position, self.target_z_position, self.yaw])  # 获取额外状态信息
-    #
-    #     obs = state_info
-    #
-    #     self.current_step = 0
-    #     self.previous_distance = None  # 重置前一时刻的距离
-    #
-    #     self.previous_target_angel = None  # 重置前一时刻的角度
-    #     self.previous_energy = None  # 重置前一时刻的势能
-    #
-    #     # 重置时势函数也要清空(PBRS)
-    #     self.previous_potential = None
-    #
-    #     return obs
-
-
-
-
-
     def render(self, mode='human'):
         pass
-
-
 
     def step(self, action):
 
@@ -242,9 +201,7 @@ class AirSimPursuit(gym.Env):
 
         state_info = np.array([self.target_angel, self.yaw, self.distance])  # 更新额外状态信息
 
-        # state_info = [self.target_angel, self.target_z_angel, self.yaw, self.distance]
-        # state_info = np.array([self.x_position, self.y_position, self.z_position, self.target_x_position, self.target_y_position, self.target_z_position, self.yaw])  # 更新额外状态信息
-        obs = state_info
+        # state_info = [self.target_angel, self.target_z_angel, self.yaw, self.distance] #3D
 
         # print("obs:", obs)
         # print('target_angel:', self.target_angel)
