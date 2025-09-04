@@ -13,7 +13,7 @@ Potential Pursuit Field (PPF),a novel reward shaping framework aimed to address 
 <div align="center">
   <table>
     <tr>
-      <td><img src="assets/image/PPF_simulator.png" width="100%"></td>
+      <td><img src="assets/image/PPF_simulator.png" width="40%"></td>
     </tr>
     <tr>
       <td align="center">Potential Pursuit Field(PPF)</td>
