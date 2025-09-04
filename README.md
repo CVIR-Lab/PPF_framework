@@ -13,6 +13,8 @@
   </table>
 </div>
 
+## This is the official for manuscript entitled Dynamic-Target Pursuit Potential Field Reward for UAV Reinforcement Learning submitted to IEEE Transactions on Control Systems Technology.
+
 Potential Pursuit Field (PPF), a novel reward shaping framework aimed to address the reward sparsity in reinforcement learning for dynamic target pursuit. By designing a droplet-shaped anisotropic potential field, the proposed PPF model provides dense and direction-aware reward signals while preserving policy invariance through potential-based reward shaping. Building upon PPF, we developed a hierarchical reinforcement learning algorithm, enabling target pursuit and obstacle avoidance in non-line-of-sight(NLOS) environments, simultaneously. 
 
 ## Video Demo
@@ -47,8 +49,5 @@ A novel concept of the Potential Pursuit Field (PPF) is proposed to support a co
   <img src="./assets/gif/OBS_1_vis.gif" alt="Obstacle pursuit (visualization)" width="49%">
 </p>
 <p align="center"></p>
-
-
-## This is the official for manuscript entitled Dynamic-Target Pursuit Potential Field Reward for UAV Reinforcement Learning submitted to IEEE Transactions on Control Systems Technology
 
 The extire code and corresponding simulation environment will be released later.
