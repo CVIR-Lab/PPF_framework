@@ -40,16 +40,13 @@ A novel concept of the Potential Pursuit Field (PPF) is proposed to support a co
 <p align="center"></p>
 
 
-## Obstacle pursuit
+## Pursuit with Obstacle envirionment
 
 <p align="center">
   <img src="./assets/gif/OBS_1.gif" alt="Obstacle pursuit" width="49%">
   <img src="./assets/gif/OBS_1_vis.gif" alt="Obstacle pursuit (visualization)" width="49%">
 </p>
 <p align="center"></p>
-
-
-
 
 
 ## This is the official for manuscript entitled Dynamic-Target Pursuit Potential Field Reward for UAV Reinforcement Learning submitted to IEEE Transactions on Control Systems Technology
