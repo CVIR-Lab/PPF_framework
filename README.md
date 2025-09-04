@@ -19,12 +19,10 @@ Potential Pursuit Field (PPF),a novel reward shaping framework aimed to address 
       <td><img src="assets/image/process.png" width="100%"></td>
     </tr>
     <tr>
-      <td align="center">PPF-based framework</td>
+      <td align="center">The proposed PPF-based hierarchical reinforcement learning framework</td>
     </tr>
   </table>
 </div>
-
-### A hierarchical reinforcement learning algorithm is proposed based on PPF, which can pursuit the NLOS target under obstacle environment.
 
 ## Potential Pursuit Field(PPF)
 
