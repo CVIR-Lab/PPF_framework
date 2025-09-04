@@ -46,9 +46,9 @@ A hierarchical reinforcement learning algorithm is proposed based on PPF, which 
 
 
  ![obs](./assets/gif/OBS_1.gif)
-
-### Visualization
 ![obs vis](./assets/gif/OBS_1_vis.gif)
+### Visualization
+
 
 
 ## This is the official for manuscript entitled Dynamic-Target Pursuit Potential Field Reward for UAV Reinforcement Learning submitted to IEEE Transactions on Control Systems Technology
