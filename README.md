@@ -1,17 +1,6 @@
 <div align="center">
-  <img src="assets/image/zhaiyaotu.png" alt="Header Image" width="100%"/>
-  <br/>
-  <h1>PPF-framework: Dynamic-Target Potential Pursuit Field Reward for UAV Reinforcement Learning</h1>
+  <h1>Dynamic-Target Potential Pursuit Field Reward for UAV Reinforcement Learning</h1>
 </div>
-
-Potential Pursuit Field (PPF),a novel reward shaping framework aimed to address the reward sparsity in reinforcement learning for dynamic target pursuit. By designing a droplet-shaped anisotropic potential field, the proposed PPF model provides dense and direction-aware reward signals while preserving policy invariance through potential-based reward shaping. Building upon PPF, we developed a hierarchical reinforcement learning algorithm, enabling target pursuit and obstacle avoidance in non-line-of-sight(NLOS) environments, simultaneously. 
-
-## Demo
-[🎬Bilibili](https://www.bilibili.com/video/BV1nDamziEjh)
-
-[🎬 Watch demo (MP4)](./assets/video/gavideo.mp4)
-
-## PPF-framework
 
 <div align="center">
   <table>
@@ -23,6 +12,14 @@ Potential Pursuit Field (PPF),a novel reward shaping framework aimed to address 
     </tr>
   </table>
 </div>
+
+Potential Pursuit Field (PPF), a novel reward shaping framework aimed to address the reward sparsity in reinforcement learning for dynamic target pursuit. By designing a droplet-shaped anisotropic potential field, the proposed PPF model provides dense and direction-aware reward signals while preserving policy invariance through potential-based reward shaping. Building upon PPF, we developed a hierarchical reinforcement learning algorithm, enabling target pursuit and obstacle avoidance in non-line-of-sight(NLOS) environments, simultaneously. 
+
+## Demo
+[🎬Bilibili](https://www.bilibili.com/video/BV1nDamziEjh)
+
+[🎬 Watch demo (MP4)](./assets/video/gavideo.mp4)
+
 
 ## Potential Pursuit Field(PPF)
 
@@ -50,7 +47,7 @@ Potential Pursuit Field (PPF),a novel reward shaping framework aimed to address 
   <img src="./assets/gif/OBS_1.gif" alt="Obstacle pursuit" width="49%">
   <img src="./assets/gif/OBS_1_vis.gif" alt="Obstacle pursuit (visualization)" width="49%">
 </p>
-<p align="center"></p>
+<p align="center"><em>Obstacle pursuit (left) and visualization (right)</em></p>
 
 
 
