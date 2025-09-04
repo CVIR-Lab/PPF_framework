@@ -10,16 +10,12 @@ Potential Pursuit Field (PPF),a novel reward shaping framework aimed to address 
 [🎬 Watch demo (MP4)](./assets/video/gavideo.mp4)
 
 ## Obstacle-free pursuit
-<div align="">
-  <table>
-    <tr>
-      <td><img src="assets/image/PPF_simulator.png" width="40%"></td>
-    </tr>
-    <tr>
-      <td align="center">Potential Pursuit Field(PPF)</td>
-    </tr>
-  </table>
-</div>
+<p align="center">
+  <img src="./assets/image/PPF_simulator.png" alt="Potential Pursuit Field (PPF)" width="480">
+  <br>
+  <em>Potential Pursuit Field (PPF)</em>
+</p>
+
 
  A novel concept of the Potential Pursuit Field (PPF) is proposed to support a continuous and dense reward-shaping function, which can capture anisotropic features and obtain richer gradient information than that of traditional rewards.
 
