@@ -15,7 +15,7 @@
 
 Potential Pursuit Field (PPF), a novel reward shaping framework aimed to address the reward sparsity in reinforcement learning for dynamic target pursuit. By designing a droplet-shaped anisotropic potential field, the proposed PPF model provides dense and direction-aware reward signals while preserving policy invariance through potential-based reward shaping. Building upon PPF, we developed a hierarchical reinforcement learning algorithm, enabling target pursuit and obstacle avoidance in non-line-of-sight(NLOS) environments, simultaneously. 
 
-## Demo
+## Video Demo
 [🎬Bilibili](https://www.bilibili.com/video/BV1nDamziEjh)
 
 [🎬 Watch demo (MP4)](./assets/video/gavideo.mp4)
