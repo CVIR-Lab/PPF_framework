@@ -50,4 +50,4 @@ A novel concept of the Potential Pursuit Field (PPF) is proposed to support a co
 </p>
 <p align="center"></p>
 
-The extire code and corresponding simulation environment will be released later.
+The entire code and corresponding simulation environment will be released later.
